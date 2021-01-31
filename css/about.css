@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Popins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background: rgb(37, 37, 37);
+  background: radial-gradient(circle, rgba(37, 37, 37, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.navigation {
+  position: fixed;
+  width: 60px;
+  height: 100%;
+  background-color: rgba(41, 41, 41, 0.9);
+  transition: 0.5s;
+  overflow: hidden;
+}
+.navigation:hover {
+  width: 300px;
+}
+
+#Menu {
+  height: 15%;
+}
+#Links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 55%;
+}
+
+#bottom{
+  height: 30%;
+}
+.navigation ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+.navigation ul li:hover {
+  background: rgb(1, 172, 229);
+}
+.navigation ul li a {
+  position: relative;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+.navigation ul li a .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: 60px;
+  height: 60px;
+  text-align: center;
+}
+.navigation ul li a .icon .fa .fas {
+  font-size: 20px;
+}
+.navigation ul li a .title {
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  height: 60px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.main{
+    height: 100vh;
+    color: white;
+    padding-left: 88px;
+    padding-top: 280px;
+}
+.text_1 {
+    font-size: 55px;
+    font-family: 'Lobster',  sans-serif;
+}
+.text_2 {
+    font-size: 50px;
+    font-family: 'Coda caption', sans-serif;
+}
+.text_3 {
+    font-size: 35px;
+}
